@@ -4,7 +4,7 @@ from mininet.node import RemoteController
 from mininet.term import makeTerm
 from mininet.node import OVSSwitch
 if '__main__' == __name__:
-	k=8
+	k=4
 
 	hosts = []
 	coreswitches = []
