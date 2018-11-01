@@ -59,4 +59,4 @@ shortpath_banport.py是模仿stp的做法，根据stp的做法，禁用一些端
 在controller下stp的相关命令，stp是解决环状回路的大杀器。
 其结果如图所示：
 
-!(fattreearpchange02.png)[https://github.com/hughesmiao/study_sdn/blob/master/ryu/shortpath/controller/images/fattreearpchange02.py]
+![fattreearpchange02.png](https://github.com/hughesmiao/study_sdn/blob/master/ryu/shortpath/controller/images/fattreearpchange02.png)
