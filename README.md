@@ -15,22 +15,22 @@ However, Ryu still have its defects such as Ryu only supporting single controlle
 [install Ryu](install)
 
 ## 如何安装Ryu
-[安装Ryu](/ryu/install)
+[安装Ryu](/install)
 
 ## vlan
-[Set vlan](/ryu/vlan)
+[Set vlan](vlan)
 
 ## vlan
-[设定vlan](/ryu/vlan)
+[设定vlan](vlan)
 
 ## Shortest path
-[shortest path in Data Center](/ryu/shortpath)
+[shortest path in Data Center](shortpath)
 
 ## 最短路径
-[基于数据中心的最短路径](/ryu/shortpath)
+[基于数据中心的最短路径](shortpath)
 
 ## Multipaths
-[Yen's Algorithm](/ryu/multipath)
+[Yen's Algorithm](multipath)
 
 ## 多条最短路径
-[Yen算法的实现](/ryu/multipath)
+[Yen算法的实现](multipath)
