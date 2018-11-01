@@ -22,3 +22,15 @@ However, Ryu still have its defects such as Ryu only supporting single controlle
 
 ## vlan
 [设定vlan](/ryu/vlan)
+
+## Shortest path
+[shortest path in Data Center](/ryu/shortpath)
+
+##最短路径
+[基于数据中心的最短路径](/ryu/shortpath)
+
+## Multipaths
+[Yen's Algorithm](/ryu/multipath)
+
+## 多条最短路径
+[Yen算法的实现](/ryu/multipath)
