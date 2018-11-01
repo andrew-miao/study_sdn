@@ -3,7 +3,7 @@
 这里会介绍三种不同的方式。
 
 拓扑图如下图所示
-![FatTree.jpg](https://github.com/hughesmiao/study_sdn/blob/master/ryu/shortpath/controller/images/FatTree.jpg)
+![FatTree.jpg](https://github.com/hughesmiao/study_sdn/blob/master/shortpath/controller/images/FatTree.jpg)
 
 ## 使用控制器修改Arp封包
 shortpath_arp.py的方法基于同一个LAN底下ip位址都不同的原理而开发的。实际上是在host发送
@@ -36,7 +36,7 @@ Arp Request时，控制器将这个封包获取，接着根据自身记录的ip_
 结果如下图所示，需要多ping几次，因为第一次会有主机没有register, register的意涵是登记
 host的ip与mac的关系。
 
-![fattreearpchange.png](https://github.com/hughesmiao/study_sdn/blob/master/ryu/shortpath/controller/images/fattreearpchange.png)
+![fattreearpchange.png](https://github.com/hughesmiao/study_sdn/blob/master/shortpath/controller/images/fattreearpchange.png)
 
 ## 使用控制器来管理端口
 shortpath_banport.py是模仿stp的做法，根据stp的做法，禁用一些端口来达到避免Arp风暴的目
@@ -59,4 +59,4 @@ shortpath_banport.py是模仿stp的做法，根据stp的做法，禁用一些端
 在controller下stp的相关命令，stp是解决环状回路的大杀器。
 其结果如图所示：
 
-![fattreearpchange02.png](https://github.com/hughesmiao/study_sdn/blob/master/ryu/shortpath/controller/images/fattreearpchange02.png)
+![fattreearpchange02.png](https://github.com/hughesmiao/study_sdn/blob/master/shortpath/controller/images/fattreearpchange02.png)
