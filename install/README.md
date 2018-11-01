@@ -43,7 +43,7 @@ Entering the following command line to test ryu is successfully installed.
 ```
 Like the picture
 
-![ryu_test.png](https://github.com/hughesmiao/study_sdn.github.io/blob/master/ryu/install/images/ryu_test.png)
+![ryu_test.png](https://github.com/hughesmiao/study_sdn/tree/master/install/images)
 
 Now, you can start the Ryu!
 
@@ -91,6 +91,6 @@ pip install msgpack
 ```
 如果如下图所示
 
-![ryu_test.png](https://github.com/hughesmiao/study_sdn.github.io/blob/master/ryu/install/images/ryu_test.png)
+![ryu_test.png](https://github.com/hughesmiao/study_sdn/tree/master/install/images)
 
 那么就开始你的Ryu之旅吧！
