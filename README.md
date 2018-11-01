@@ -26,7 +26,7 @@ However, Ryu still have its defects such as Ryu only supporting single controlle
 ## Shortest path
 [shortest path in Data Center](/ryu/shortpath)
 
-##最短路径
+## 最短路径
 [基于数据中心的最短路径](/ryu/shortpath)
 
 ## Multipaths
