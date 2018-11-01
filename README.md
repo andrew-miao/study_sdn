@@ -12,7 +12,7 @@ However, Ryu still have its defects such as Ryu only supporting single controlle
 然而，Ryu同样有着它自身的缺陷，例如Ryu只支持单个控制器，这也意味着当这个单个控制器在遭受到不可逆的问题时，整个网络都可能会塌陷。
 
 ## How to install Ryu
-[install Ryu](/ryu/install)
+[install Ryu](install)
 
 ## 如何安装Ryu
 [安装Ryu](/ryu/install)
