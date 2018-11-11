@@ -43,7 +43,7 @@ shortpath_banport.py是模仿stp的做法，根据stp的做法，禁用一些端
 的。其中核心代码是mac_learning这段函数，它会根据来源mac位址第一次进来的Arp来确定为该来
 源mac位址的Arp封包可以通过的端口，其余端口若收到同一个来源mac位址的Arp封包则丢弃。
 下面是核心代码片段：
-```
+```python
     def mac_learning(self, dpid, src, in_port):
         self.mac_to_port.setdefault(dpid, {})
         if src in self.mac_to_port[dpid]:
