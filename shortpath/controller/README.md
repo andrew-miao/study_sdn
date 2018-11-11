@@ -12,6 +12,7 @@ Arp Request时，控制器将这个封包获取，接着根据自身记录的ip_
 据icmp封包来规划flow。
 下面是核心代码片段,制造一个arp reply的封包：
 ```
+    python
     def _make_arp_reply(self, datapath, in_port, out_port, ip_src, ip_dst, pkt_ether, dst_dpid, arp_pkt, msg):
         if arp_pkt.opcode != arp.ARP_REQUEST:
             return
