@@ -11,8 +11,7 @@ Arp Request时，控制器将这个封包获取，接着根据自身记录的ip_
 应mac。控制器再发送一则Arp Reply给host,使得host认为对方有回复，发送icmp封包，此时再根
 据icmp封包来规划flow。
 下面是核心代码片段,制造一个arp reply的封包：
-```
-    python
+``` python
     def _make_arp_reply(self, datapath, in_port, out_port, ip_src, ip_dst, pkt_ether, dst_dpid, arp_pkt, msg):
         if arp_pkt.opcode != arp.ARP_REQUEST:
             return
