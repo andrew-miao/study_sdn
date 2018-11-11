@@ -1,3 +1,10 @@
+# Shortest Path
+As for loop topology, we will confront the problem that broadcast storm caused by this topology.
+Therefore, we came up with 3 different kinds of methods to deal with this problem.
+
+Topology as shown in the following figure
+![FatTree.jpg](https://github.com/hughesmiao/study_sdn/blob/master/shortpath/controller/images/FatTree.jpg)
+
 # 最短路径
 对于环状拓扑而言，找到最短路径首先需要解决的问题便是Arp风暴的问题，由于解决手法的不同，
 这里会介绍三种不同的方式。
