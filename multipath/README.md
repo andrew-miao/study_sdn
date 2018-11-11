@@ -11,5 +11,5 @@ Yen's algorithm是一个很好的来解决无环状以及无负权重的拓扑�
 
 代码方面展现的是k=2的Yen's algorithm的实现，拓扑图如下所示：
 
-!
+![yen_graph.png](https://github.com/hughesmiao/study_sdn/blob/master/multipath/topology/yen_graph.png)
 
