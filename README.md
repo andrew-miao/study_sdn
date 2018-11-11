@@ -1,9 +1,9 @@
 # Ryu
 ## Introduction
-Nowadays, there are several different controllers to be used to achieve SDN.
-Compare to the OpenDaylight and ONOS, Ryu is a much lighter controller and its control way is very clear. 
-In addition, Ryu is also a great way for students to do SDN experiments and it is very suit for beginners.
-However, Ryu still have its defects such as Ryu only supporting single controller, which means if the only controller have some uncoverable problems, the networking wouldn't collapse.
+Nowadays, there are several different controllers to be used in Software Defined Networking(SDN).
+Compare with the OpenDaylight and ONOS, Ryu is a much lighter controller and its control way is very clear. 
+In addition, Ryu is also a good tool for students to do SDN experiments and it is very suit for beginners.
+However, Ryu still have its defects such as Ryu only supporting single controller. Therefore, if the only controller have some uncoverable problems, the networking will collapse.
  
 ## 简介
 如今，SDN有很多不同种类的控制器。
